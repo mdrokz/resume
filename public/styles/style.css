@@ -4,7 +4,7 @@ body {
   font-weight: 300;
   margin: 0;
   padding: 40px;
-  background-color: #f4f4f4;
+  background-color: #fff; /* Changed to white for printing */
   color: #333;
   line-height: 1.6;
 }
