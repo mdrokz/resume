@@ -1,0 +1,20 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "My Resume / CV crafted with HTML/CSS",
+  "main": "preprocess.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdrokz/resume.git"
+  },
+  "author": "mdrokz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdrokz/resume/issues"
+  },
+  "homepage": "https://github.com/mdrokz/resume#readme",
+  "dependencies": {
+    "puppeteer": "^21.1.1"
+  }
+}
