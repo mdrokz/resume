@@ -12,7 +12,7 @@ async function generatePDF() {
     const page = await browser.newPage();
 
     // Navigate to your HTML file or any online URL
-    await page.goto('file:///github/workspace/index.html', { waitUntil: 'networkidle0' });
+    await page.goto('file:///home/runner/work/resume/resume/index.html', { waitUntil: 'networkidle0' });
 
 
     // Generate the PDF

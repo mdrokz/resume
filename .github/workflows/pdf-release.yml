@@ -58,7 +58,7 @@ jobs:
       - name: Create a Release in GitHub
         uses: ncipollo/release-action@v1
         with:
-          artifacts: "/github/workspace/Mohammad Munshi - Full Stack Engineer.pdf"
+          artifacts: "/home/runner/work/resume/resume/Mohammad Munshi - Full Stack Engineer.pdf"
           token: ${{ secrets.GH_TOKEN }}
           tag: ${{ steps.version.outputs.content }}
           commit: ${{ github.sha }}
