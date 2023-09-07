@@ -161,12 +161,12 @@ for (let project of projects) {
 
   const githubLink = `${
     project?.githubLink
-      ? `<a href="${project.githubLink}"><img class="icon" src="github.svg" alt="github" /></a>`
+      ? `<a href="${project.githubLink}"><img class="icon" src="public/icons/github.svg" alt="github" /></a>`
       : ""
   }`;
   const linkedinLink = `${
     project?.linkedinLink
-      ? `<a href="${project.linkedinLink}"><img class="icon" src="linkedin.svg" alt="linkedin" /></a>`
+      ? `<a href="${project.linkedinLink}"><img class="icon" src="public/icons/linkedin.svg" alt="linkedin" /></a>`
       : ""
   }`;
 
