@@ -5,7 +5,9 @@ const { readFileSync } = require('fs');
 async function generatePDF() {
     // Launch a new browser instance
     const browser = await puppeteer.launch({
-        headless: true
+        headless: true,
+        timeout: 60000,
+        args: ['--no-sandbox', '--disable-setuid-sandbox']
     });
 
     // Open a new page
