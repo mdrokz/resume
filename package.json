@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "My Resume / CV crafted with HTML/CSS",
   "main": "preprocess.js",
-  "scripts": {},
+  "scripts": {
+    "start": "node convert_to_pdf.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mdrokz/resume.git"
