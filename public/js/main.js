@@ -14,6 +14,18 @@ const experiences = [
       "Led in the design and implementation of diverse tools, from an SMS/Email microservice using SendGrid and Twilio to a versatile page builder and advanced machine learning projects in Rust.",
     ],
   },
+  {
+    role: "Freelance Software Engineer",
+    company: "Freelancing",
+    duration: "August 2020 - May 2022",
+    location: "Remote",
+    achievements: [
+      "Worked with over 10+ clients from upwork,freelancer & linkedin to build high quality software products.",
+      "Built a high performance web crawler in C# to scrape 100k+ car data from a website.",
+      "Worked with various technologies like React,Angular,Node.js,C# (.NET),Rust,Go etc.",
+      "Contributed to open source projects while working with clients.",
+    ]
+  }
   // ... Add other experiences in a similar format ...
 ];
 
